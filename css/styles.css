@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(39, 39, 39);
+    background-image: url("../img/starry.gif");
+    color: white;
+
+    image-rendering: crisp-edges;
+}
+
+
+
+main a {
+    color: white;
+}
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

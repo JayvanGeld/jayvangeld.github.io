@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay van Gelderen</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <!--<link rel="icon" href="img\favicon.ico">-->
+</head>
+<body>
+    <main>
+        <img src="img/portfolioBig.png" alt="Portfolio">
+
+        <a href="index.html"><- Terug naar home</a>
+
+        <section>
+            <a href="http://temp.packcards.nl/" target="_blank">
+                <section>
+                    <img src="img/packcards.png" alt="Packcards Website">
+                    <h1>Packcards - Webshop</h1>
+                    <p>Volledig gepersonaliseerde website, met Snipcart en Mollie integratie voor winkelwagens en betaling.</p>
+                </section>
+            </a>
+
+            <a href="#" target="_blank">
+                <section>
+                    <img src="img/wrw.png" alt="Wie Rijdt Waar">
+                    <h1>Wie Rijdt Waar - App & Website</h1>
+                    <p>Mobiele App met React Native, en PHP backend. <br> 
+                        Gepersonaliseerde website.</p>
+                </section>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p id="year">&copy; Jay van Gelderen </p>
+    </footer>
+</body>
+</html>
+
+<script>
+    document.getElementById("year").innerHTML += new Date().getFullYear();
+</script>
