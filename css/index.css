@@ -2,7 +2,7 @@
     main>section {
         width: 700px;
         height: 500px;
-        overflow: hidden;
+        /* overflow: hidden; */
         /* background-color: aqua; */
 
         margin-left: calc(50vw - 350px);
